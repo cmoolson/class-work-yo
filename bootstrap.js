@@ -9,11 +9,13 @@ class Post {
 	constructor(
 				title,
 				link,
+				link2,
 				author,
 				img,
 				body){
 					this.title = title;
 					this.link = link;
+					this.link2 = link2;
 					this.author = author;
 					this.img = img;
 					this.body = body;
@@ -37,16 +39,18 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
-				'An Author',			// this is the AUTHOR place in the class
-				'https://unsplash.it/200',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'Worlds Largest Chickens and Chicken Stories', 		// this is the TITLE place in the class
+				'http://www.latimes.com/entertainment/la-caw-wordplay11-2009jan11-story.html',	// this is the LINK place in the class
+				''
+				'The Topher',			// this is the AUTHOR place in the class
+				'https://www.vyperlook.com/wp-content/uploads/2012/04/hen-and-smallest-egg.jpg',	// this is the IMAGE place in the class
+				'What a chicken, what a day. When I come home, my chickens say hey.' // this is the BODY place in the class
 				),
 
 			new Post(
-				'Second Post: Lorem',
-				'https://vuejs.org',
+				'Most Impressive Domino Runs',
+				'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjT_Yru-OrTAhUEwFQKHW8GDDwQ3ywIJzAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvDy2xWpZWVc&usg=AFQjCNGR6yNiNsXRRITKbC8F-CqSCwhPXA',
+				''
 				'Sammie Author',
 				'img-200.jpg', // this is a local image in the same folder as the js script
 				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '

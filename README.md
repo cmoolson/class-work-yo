@@ -1,3 +1,6 @@
+This is a website created by Tyson, Jonas, and Christopher
+
+
 # one-page-vue2
 
 Simple one-pager apps to learn/teach HTML, CSS &amp; [Vue2](https://vuejs.org/)

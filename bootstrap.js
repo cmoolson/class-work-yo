@@ -41,42 +41,45 @@ const app = new Vue({
 			new Post(
 				'Worlds Largest Chickens and Chicken Stories', 		// this is the TITLE place in the class
 				'http://www.latimes.com/entertainment/la-caw-wordplay11-2009jan11-story.html',	// this is the LINK place in the class
-				''
+				'',
 				'The Topher',			// this is the AUTHOR place in the class
 				'https://www.vyperlook.com/wp-content/uploads/2012/04/hen-and-smallest-egg.jpg',	// this is the IMAGE place in the class
-				'What a chicken, what a day. When I come home, my chickens say hey.' // this is the BODY place in the class
+				'What a chicken, what a day. When I come home, my chickens say hey.', // this is the BODY place in the class
 				),
 
 			new Post(
 				'Most Impressive Domino Runs',
 				'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjT_Yru-OrTAhUEwFQKHW8GDDwQ3ywIJzAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvDy2xWpZWVc&usg=AFQjCNGR6yNiNsXRRITKbC8F-CqSCwhPXA',
+				'',
+				'The Topher',
+				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5c7ZxSYHq2yhECvQTW1MhV-POjnlMUoo3Qjp4mp-P0TxGhCUM', // this is a local image in the same folder as the js script
 				''
-				'Sammie Author',
-				'img-200.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
-				'https://google.com',
-				'Bob Author',
-				'https://unsplash.it/200',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
+				'The great Tyson Harjit',
+				'',
+				'',
+				'The Topher',
+				'Dr.-Duncan-tyson.jpg',
+				'Hit Ty up here. Dont spam him too much. +1 (530) 574-5634'
 				),
 
 			new Post(
-				'Another Post: promptly judged',
+				'Some shoes',
 				'https://vuejs.org',
-				'Jane Author',
-				'https://unsplash.it/200',
-				'We promptly judged antique ivory buckles for the next prize.'
+				'',
+				'Jonah Myles',
+				'il_fullxfull.830824728_otwb.jpg',
+				'F I G H T  M E'
 				),
 
 			new Post(
 				'Last Post: Jaded zombies',
 				'https://google.com',
+				'',
 				'Anptoght Author',
-				'#',
+				'',
 				'Jaded zombies acted quaintly but kept driving their oxen forward.'
 				)
 		]

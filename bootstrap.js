@@ -62,7 +62,7 @@ const app = new Vue({
 				'',
 				'The Topher',
 				'Dr.-Duncan-tyson.jpg',
-				'Hit Ty up here. Dont spam him too much. +1 (530) 574-5634'
+				'Hes pretty great'
 				),
 
 			new Post(
@@ -73,14 +73,23 @@ const app = new Vue({
 				'il_fullxfull.830824728_otwb.jpg',
 				'F I G H T  M E'
 				),
+				
+				new Post(
+				'Da Yeezys',
+				'',
+				'',
+				'Tyson Harjit',
+				'http://paintorthread.com/wp-content/uploads/2017/01/adidas-yeezy-boost-350-bizon-customs-5.jpg',
+				'Gucci on my feet, Gucci on my... you know ;)'
+				),
 
 			new Post(
-				'Last Post: Jaded zombies',
-				'https://google.com',
+				'Some Fire Shoes',
 				'',
-				'Anptoght Author',
 				'',
-				'Jaded zombies acted quaintly but kept driving their oxen forward.'
+				'Tyson',
+				'nike-kobe-9-influence.jpg',
+				'text'
 				)
 		]
 	},

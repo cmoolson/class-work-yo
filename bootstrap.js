@@ -58,7 +58,7 @@ const app = new Vue({
 
 			new Post(
 				'The great Tyson Harjit',
-				'',
+				'http://www.maxpreps.com/athlete/tyson-duncan/mVNSZcJVEeW-8KA2nzwbTA/photo/full_size.htm?photoid=e1c82608-cd55-48a2-b489-c183de6a8e14',
 				'',
 				'The Topher',
 				'Dr.-Duncan-tyson.jpg',
@@ -76,7 +76,7 @@ const app = new Vue({
 				
 				new Post(
 				'Da Yeezys',
-				'',
+				'https://www.flightclub.com/adidas/yeezy',
 				'',
 				'Tyson Harjit',
 				'http://paintorthread.com/wp-content/uploads/2017/01/adidas-yeezy-boost-350-bizon-customs-5.jpg',
@@ -85,7 +85,7 @@ const app = new Vue({
 
 			new Post(
 				'Some Fire Shoes',
-				'',
+				'http://store.nike.com/us/en_us/pw/mens-kobe-bryant-shoes/7puZa9hZoi3',
 				'',
 				'Tyson',
 				'nike-kobe-9-influence.jpg',
